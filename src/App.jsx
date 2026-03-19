@@ -3,12 +3,15 @@ import { siteContent } from './siteContent'
 
 const { brand, profile, nav, stackRail, about, experience, skills, projects } = siteContent
 const profilePhotoSrc = `${import.meta.env.BASE_URL}${profile.photo}`
+const logoSrc = `${import.meta.env.BASE_URL}denise-logo.svg`
+const resumeHref = `${import.meta.env.BASE_URL}${profile.resumeFile}`
 
 function App() {
   return (
     <div className="page">
       <header className="topbar">
         <a href="#home" className="brand">
+          <img src={logoSrc} alt="Denise logo" />
           {brand}
           <span>/</span>
         </a>
@@ -45,6 +48,9 @@ function App() {
               <a href={`mailto:${profile.email}`}>Email</a>
               <a href={profile.linkedin} target="_blank" rel="noreferrer">
                 LinkedIn
+              </a>
+              <a href={resumeHref} download>
+                Download Resume
               </a>
               <a href="#contact">Let's talk</a>
             </div>
@@ -133,6 +139,9 @@ function App() {
             <a href={`mailto:${profile.email}`}>E-mail: {profile.email}</a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer">
               LinkedIn
+            </a>
+            <a href={resumeHref} download>
+              Download Resume
             </a>
             <a href={`tel:${profile.phone.replace(/\s+/g, '')}`}>Phone: {profile.phone}</a>
           </div>

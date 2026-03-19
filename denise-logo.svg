@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Denise Tham logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee7ff"/>
+      <stop offset="1" stop-color="#45e4cf"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="22" fill="#0b1729" stroke="url(#g)" stroke-width="8"/>
+  <path d="M34 36h18c16 0 24 10 24 28s-8 28-24 28H34V36Zm18 42c8 0 12-5 12-14s-4-14-12-14h-6v28h6Z" fill="#e9f1fb"/>
+  <path d="M81 36h35v14h-10v42H92V50H81V36Z" fill="url(#g)"/>
+</svg>

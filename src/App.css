@@ -48,9 +48,18 @@ body {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font: 700 2rem/1 'Sora', sans-serif;
   color: var(--text);
   text-decoration: none;
+}
+
+.brand img {
+  width: 1.45rem;
+  height: 1.45rem;
+  filter: drop-shadow(0 0 8px rgba(69, 228, 207, 0.4));
 }
 
 .brand span,

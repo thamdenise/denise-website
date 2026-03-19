@@ -13,6 +13,7 @@ export const siteContent = {
     linkedin: 'https://www.linkedin.com/in/denise-tham',
     photo: 'denise-photo.jpeg',
     photoAlt: 'Portrait of Denise Tham',
+    resumeFile: 'resume-denise_fullstack_software_developer_5years_experience.pdf',
   },
   nav: ['About', 'Experience', 'Skills', 'Projects', 'Contact'],
   stackRail: [
