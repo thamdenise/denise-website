@@ -3,6 +3,7 @@ import { siteContent } from './siteContent'
 
 const { brand, profile, nav, stackRail, about, experience, skills, projects } = siteContent
 const profilePhotoSrc = `${import.meta.env.BASE_URL}${profile.photo}`
+const aboutImageSrc = `${import.meta.env.BASE_URL}${about.image}`
 const logoSrc = `${import.meta.env.BASE_URL}denise-logo.svg`
 const resumeHref = `${import.meta.env.BASE_URL}${profile.resumeFile}`
 
@@ -69,7 +70,8 @@ function App() {
           <h2>About.</h2>
           <div className="about-grid">
             <div className="about-visual">
-              <div className="block" />
+              <div className="about-glow" />
+              <img className="about-image" src={aboutImageSrc} alt={about.imageAlt} />
               <div className="mini-card mini-card-top">{about.badges[0]}</div>
               <div className="mini-card mini-card-bottom">{about.badges[1]}</div>
             </div>

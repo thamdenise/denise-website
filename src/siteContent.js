@@ -32,6 +32,7 @@ export const siteContent = {
     lead: 'Full-stack developer with 5 years of experience across fintech-adjacent products, ecommerce systems, and internal operations tooling.',
     body: 'Most recent focus: building robust payment flows, improving reporting accuracy, and creating architecture that scales across multiple business units.',
     badges: ['Payments', 'Data Systems'],
+    image: 'public/mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg',
     stats: [
       { label: 'Years', value: '5' },
       { label: 'Stripe Flows', value: '10+' },
