@@ -2,6 +2,7 @@ import './App.css'
 import { siteContent } from './siteContent'
 
 const { brand, profile, nav, stackRail, about, experience, skills, projects } = siteContent
+const profilePhotoSrc = `${import.meta.env.BASE_URL}${profile.photo}`
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <section id="home" className="hero">
           <div className="portrait-wrap" aria-hidden="true">
             <div className="portrait-placeholder">
-              <img src={profile.photo} alt={profile.photoAlt} />
+              <img src={profilePhotoSrc} alt={profile.photoAlt} />
             </div>
             <p className="code-mark">{'</>'}</p>
           </div>

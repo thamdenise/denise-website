@@ -11,7 +11,7 @@ export const siteContent = {
     email: 'denisethamws@gmail.com',
     phone: '+44 73 4968 2535',
     linkedin: 'https://www.linkedin.com/in/denise-tham',
-    photo: '/denise-website/denise-photo.jpeg',
+    photo: 'denise-photo.jpeg',
     photoAlt: 'Portrait of Denise Tham',
   },
   nav: ['About', 'Experience', 'Skills', 'Projects', 'Contact'],
@@ -32,7 +32,7 @@ export const siteContent = {
     body: 'Most recent focus: building robust payment flows, improving reporting accuracy, and creating architecture that scales across multiple business units.',
     badges: ['Payments', 'Data Systems'],
     stats: [
-      { label: 'Years', value: '5+' },
+      { label: 'Years', value: '5' },
       { label: 'Stripe Flows', value: '10+' },
       { label: 'SaaS Orgs', value: '2' },
     ],

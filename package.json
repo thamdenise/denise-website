@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "local": "/Users/Denise/.nvm/versions/node/v18.20.8/bin/node ./node_modules/vite/bin/vite.js build && rm -rf assets && cp -R dist/assets ./assets && cp dist/index.html ./app.html && cp -R public/. ./",
     "publish:local": "rm -rf assets && cp -R dist/assets ./assets && cp dist/index.html ./app.html && cp -R public/. ./",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
