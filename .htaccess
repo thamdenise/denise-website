@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redirect www.example.com → example.com (preserving path/query)
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
