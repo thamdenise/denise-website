@@ -11,6 +11,7 @@ export const siteContent = {
     email: 'denisethamws@gmail.com',
     phone: '+44 73 4968 2535',
     linkedin: 'https://www.linkedin.com/in/denise-tham',
+    github: 'https://github.com/thamdenise',
     photo: 'denise-photo.jpeg',
     photoAlt: 'Portrait of Denise Tham',
     resumeFile: 'resume-denise_fullstack_software_developer_5years_experience.pdf',

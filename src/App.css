@@ -15,6 +15,19 @@
   box-sizing: border-box;
 }
 
+/* Screen-reader only utility (accessible icon buttons) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -166,6 +179,10 @@ h1 {
 
 .hero-links a,
 .contact-grid a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   text-decoration: none;
   color: var(--text);
   border: 1px solid var(--line);
@@ -173,6 +190,12 @@ h1 {
   padding: 11.52px 16px;
   border-radius: 8.8px;
   transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-links a svg,
+.contact-grid a svg {
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 .hero-links a:hover,
